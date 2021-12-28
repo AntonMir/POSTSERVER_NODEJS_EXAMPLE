@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies/
+/front-end/.pnp
+/front-end/.pnp.js
+
+# node_modules/
+/node_modules
+/front-end/node_modules
+/AUTH_server/node_modules
+/QUUPPA_server/node_modules
+/POST_server/node_modules
+
+# testing
+/coverage
+
+# production
+/front-end/build
+/AUTH_server/build
+/QUUPPA_server/build
+/POST_server/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.vscode
+/.idea
+
+
